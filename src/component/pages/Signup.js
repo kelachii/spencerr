@@ -36,11 +36,14 @@ const SignUp = (setUser) => {
             };
         });
     };
+    const handleSubmit = (e) => {
+
+    }
 
     const { username, email, firstName, middleName, lastName, mobile, dob, city, password, conPassword, gender } = formValue;
 
     return (
-        <form className='signup'>
+        <form className='signup' onSubmit={handleSubmit}>
 
             <div className='signup-banner'>
                 <h1>Sign Up</h1>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink, Link, Outlet } from 'react-router-dom';
 import { FaShoppingCart } from "react-icons/fa"
+import Search from '../Search';
 
 
 const SharedComp = () => {
@@ -13,6 +14,7 @@ const SharedComp = () => {
     <div className='shared'>
       <section className='navig'>
         <Link to='/' className='logo'> Spencer </Link>
+        <Search />
 
         <nav className={toggle ? 'nav-display' : 'null'}>
           <ul>
