@@ -1,58 +1,18 @@
 {
-  "post": [
+  "users": [
     {
-      "id": 1,
-      "Title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro architecto pariatur doloremque iusto natus voluptates at ea quia minus quidem facere sequi, earum impedit aspernatur, doloribus eaque dolore similique adipisci fugit illum voluptatibus blanditiis mollitia! Cumque doloribus perferendis eligendi quo amet deserunt quibusdam tenetur! Id quis atque possimus, excepturi repudiandae explicabo quae minima neque, officiis, vero officia. Cupiditate placeat quam unde cumque exercitationem neque ipsa natus iste, nesciunt molestias blanditiis ipsum eius ipsam voluptatem ullam debitis, saepe sunt vel dicta. Optio, qui reiciendis perspiciatis asperiores nesciunt minima culpa, iste cumque quod quam consectetur in amet? Omnis et itaque, necessitatibus quia dolores nulla nostrum debitis ipsum molestias, dolor distinctio quis ab, maxime fugit pariatur. Dignissimos, architecto, magnam cumque ad nulla totam officiis, ut praesentium suscipit sunt molestiae iusto repellendus minus numquam error. Reprehenderit ea officiis, incidunt non facere natus veritatis cum officia in libero a ipsa, beatae maiores ipsam magni, dolores voluptatum obcaecati eos nisi? Impedit deserunt possimus, cupiditate error soluta, sit excepturi repudiandae repellendus ut officiis natus hic expedita vel vero commodi nemo voluptas consectetur quae corrupti praesentium, ad alias saepe neque omnis? Ut a, tempore nemo tempora odit accusamus aperiam suscipit inventore perferendis. Error consequuntur quas doloremque quibusdam?",
-      "author": "kelachi",
-      "likes": 80
-    },
-    {
-      "id": 2,
-      "Title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro architecto pariatur doloremque iusto natus voluptates at ea quia minus quidem facere sequi, earum impedit aspernatur, doloribus eaque dolore similique adipisci fugit illum voluptatibus blanditiis mollitia! Cumque doloribus perferendis eligendi quo amet deserunt quibusdam tenetur! Id quis atque possimus, excepturi repudiandae explicabo quae minima neque, officiis, vero officia. Cupiditate placeat quam unde cumque exercitationem neque ipsa natus iste, nesciunt molestias blanditiis ipsum eius ipsam voluptatem ullam debitis, saepe sunt vel dicta. Optio, qui reiciendis perspiciatis asperiores nesciunt minima culpa, iste cumque quod quam consectetur in amet? Omnis et itaque, necessitatibus quia dolores nulla nostrum debitis ipsum molestias, dolor distinctio quis ab, maxime fugit pariatur. Dignissimos, architecto, magnam cumque ad nulla totam officiis, ut praesentium suscipit sunt molestiae iusto repellendus minus numquam error. Reprehenderit ea officiis, incidunt non facere natus veritatis cum officia in libero a ipsa, beatae maiores ipsam magni, dolores voluptatum obcaecati eos nisi? Impedit deserunt possimus, cupiditate error soluta, sit excepturi repudiandae repellendus ut officiis natus hic expedita vel vero commodi nemo voluptas consectetur quae corrupti praesentium, ad alias saepe neque omnis? Ut a, tempore nemo tempora odit accusamus aperiam suscipit inventore perferendis. Error consequuntur quas doloremque quibusdam?",
-      "author": "Victor",
-      "likes": 50
-    },
-    {
-      "id": 3,
-      "Title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro architecto pariatur doloremque iusto natus voluptates at ea quia minus quidem facere sequi, earum impedit aspernatur, doloribus eaque dolore similique adipisci fugit illum voluptatibus blanditiis mollitia! Cumque doloribus perferendis eligendi quo amet deserunt quibusdam tenetur! Id quis atque possimus, excepturi repudiandae explicabo quae minima neque, officiis, vero officia. Cupiditate placeat quam unde cumque exercitationem neque ipsa natus iste, nesciunt molestias blanditiis ipsum eius ipsam voluptatem ullam debitis, saepe sunt vel dicta. Optio, qui reiciendis perspiciatis asperiores nesciunt minima culpa, iste cumque quod quam consectetur in amet? Omnis et itaque, necessitatibus quia dolores nulla nostrum debitis ipsum molestias, dolor distinctio quis ab, maxime fugit pariatur. Dignissimos, architecto, magnam cumque ad nulla totam officiis, ut praesentium suscipit sunt molestiae iusto repellendus minus numquam error. Reprehenderit ea officiis, incidunt non facere natus veritatis cum officia in libero a ipsa, beatae maiores ipsam magni, dolores voluptatum obcaecati eos nisi? Impedit deserunt possimus, cupiditate error soluta, sit excepturi repudiandae repellendus ut officiis natus hic expedita vel vero commodi nemo voluptas consectetur quae corrupti praesentium, ad alias saepe neque omnis? Ut a, tempore nemo tempora odit accusamus aperiam suscipit inventore perferendis. Error consequuntur quas doloremque quibusdam?",
-      "author": "Elewa",
-      "likes": 80
+      "id": "1",
+      "username": "kelachi",
+      "email": "kelachivictor@gmail.com",
+      "firstName": "kelachi",
+      "middleName": "victor",
+      "lastName": "elewa",
+      "mobile": "09016194273",
+      "dob": "",
+      "city": "",
+      "password": "",
+      "conPassword": "",
+      "gender": ""
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "Title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro architecto pariatur doloremque iusto natus voluptates at ea quia minus quidem facere sequi, earum impedit aspernatur, doloribus eaque dolore similique adipisci fugit illum voluptatibus blanditiis mollitia! Cumque doloribus perferendis eligendi quo amet deserunt quibusdam tenetur! Id quis atque possimus, excepturi repudiandae explicabo quae minima neque, officiis, vero officia. Cupiditate placeat quam unde cumque exercitationem neque ipsa natus iste, nesciunt molestias blanditiis ipsum eius ipsam voluptatem ullam debitis, saepe sunt vel dicta. Optio, qui reiciendis perspiciatis asperiores nesciunt minima culpa, iste cumque quod quam consectetur in amet? Omnis et itaque, necessitatibus quia dolores nulla nostrum debitis ipsum molestias, dolor distinctio quis ab, maxime fugit pariatur. Dignissimos, architecto, magnam cumque ad nulla totam officiis, ut praesentium suscipit sunt molestiae iusto repellendus minus numquam error. Reprehenderit ea officiis, incidunt non facere natus veritatis cum officia in libero a ipsa, beatae maiores ipsam magni, dolores voluptatum obcaecati eos nisi? Impedit deserunt possimus, cupiditate error soluta, sit excepturi repudiandae repellendus ut officiis natus hic expedita vel vero commodi nemo voluptas consectetur quae corrupti praesentium, ad alias saepe neque omnis? Ut a, tempore nemo tempora odit accusamus aperiam suscipit inventore perferendis. Error consequuntur quas doloremque quibusdam?",
-      "post_id": 2
-    },
-    {
-      "id": 2,
-      "Title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro architecto pariatur doloremque iusto natus voluptates at ea quia minus quidem facere sequi, earum impedit aspernatur, doloribus eaque dolore similique adipisci fugit illum voluptatibus blanditiis mollitia! Cumque doloribus perferendis eligendi quo amet deserunt quibusdam tenetur! Id quis atque possimus, excepturi repudiandae explicabo quae minima neque, officiis, vero officia. Cupiditate placeat quam unde cumque exercitationem neque ipsa natus iste, nesciunt molestias blanditiis ipsum eius ipsam voluptatem ullam debitis, saepe sunt vel dicta. Optio, qui reiciendis perspiciatis asperiores nesciunt minima culpa, iste cumque quod quam consectetur in amet? Omnis et itaque, necessitatibus quia dolores nulla nostrum debitis ipsum molestias, dolor distinctio quis ab, maxime fugit pariatur. Dignissimos, architecto, magnam cumque ad nulla totam officiis, ut praesentium suscipit sunt molestiae iusto repellendus minus numquam error. Reprehenderit ea officiis, incidunt non facere natus veritatis cum officia in libero a ipsa, beatae maiores ipsam magni, dolores voluptatum obcaecati eos nisi? Impedit deserunt possimus, cupiditate error soluta, sit excepturi repudiandae repellendus ut officiis natus hic expedita vel vero commodi nemo voluptas consectetur quae corrupti praesentium, ad alias saepe neque omnis? Ut a, tempore nemo tempora odit accusamus aperiam suscipit inventore perferendis. Error consequuntur quas doloremque quibusdam?",
-      "post_id": 2
-    },
-    {
-      "id": 3,
-      "Title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro architecto pariatur doloremque iusto natus voluptates at ea quia minus quidem facere sequi, earum impedit aspernatur, doloribus eaque dolore similique adipisci fugit illum voluptatibus blanditiis mollitia! Cumque doloribus perferendis eligendi quo amet deserunt quibusdam tenetur! Id quis atque possimus, excepturi repudiandae explicabo quae minima neque, officiis, vero officia. Cupiditate placeat quam unde cumque exercitationem neque ipsa natus iste, nesciunt molestias blanditiis ipsum eius ipsam voluptatem ullam debitis, saepe sunt vel dicta. Optio, qui reiciendis perspiciatis asperiores nesciunt minima culpa, iste cumque quod quam consectetur in amet? Omnis et itaque, necessitatibus quia dolores nulla nostrum debitis ipsum molestias, dolor distinctio quis ab, maxime fugit pariatur. Dignissimos, architecto, magnam cumque ad nulla totam officiis, ut praesentium suscipit sunt molestiae iusto repellendus minus numquam error. Reprehenderit ea officiis, incidunt non facere natus veritatis cum officia in libero a ipsa, beatae maiores ipsam magni, dolores voluptatum obcaecati eos nisi? Impedit deserunt possimus, cupiditate error soluta, sit excepturi repudiandae repellendus ut officiis natus hic expedita vel vero commodi nemo voluptas consectetur quae corrupti praesentium, ad alias saepe neque omnis? Ut a, tempore nemo tempora odit accusamus aperiam suscipit inventore perferendis. Error consequuntur quas doloremque quibusdam?",
-      "post_id": 2
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "users": [{
-    "username":"kelachi",
-    "email":"kelachivictor@gmail.com",
-    "firstName":"kelachi",
-    "middleName":"victor",
-    "lastName":"elewa",
-    "mobile": "09016194273"
-    
-  }]
-
+  ]
 }

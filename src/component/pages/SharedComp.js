@@ -19,11 +19,13 @@ const SharedComp = () => {
             <li><NavLink to='/' className={({ isActive }) => (isActive ? 'active' : 'link')}>Home</NavLink></li>
             <li><NavLink to='/Product' className={({ isActive }) => (isActive ? 'active' : 'link')}>Products</NavLink></li>
             <li><NavLink to='/Services' className={({ isActive }) => (isActive ? 'active' : 'link')}>Services</NavLink></li>
+            <li><NavLink to='/Login' className={({ isActive }) => (isActive ? 'active' : 'link')}>Login</NavLink></li>
           </ul>
           <Link to='/'><FaShoppingCart /></Link>
 
-          <Link to='/Login'><button className='btn'>
-            Login
+
+          <Link to='/SignUp'><button className='btn'>
+            Sign Up
           </button></Link>
         </nav>
 

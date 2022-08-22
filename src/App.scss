@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Oxygen:wght@700&family=Poppins:wght@300;400;700&family=Raleway:wght@100;400&display=swap');
 
-// * {
-//     padding: 0;
-//     margin: 0;
-//     box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
-// }
+}
 
 
 
@@ -271,10 +271,6 @@
             text-align: center;
         }
 
-        // .signup_banner {
-        //     display: grid;
-        //     grid-template-columns: 1fr 1fr;
-        // }
 
         button {
             width: 100%;
@@ -300,6 +296,7 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: .5rem;
         align-self: auto;
+        text-align: left;
         margin: auto;
 
 
@@ -320,14 +317,6 @@
         font-weight: 500;
         font-size: 0.888rem;
     }
-
-    .label {
-
-        text-align: left;
-        padding: 0 4rem;
-        margin: 0;
-    }
-
 
 
 
