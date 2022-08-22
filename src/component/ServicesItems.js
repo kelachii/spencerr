@@ -1,5 +1,5 @@
 import React from 'react'
-import { services } from '../../Data'
+import { services } from '../Data'
 const ServicesItemsComp = () => {
   return (
     <div className='service'>

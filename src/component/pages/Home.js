@@ -13,7 +13,7 @@ const HomeComp = () => {
         <Link to='/Product'><button className='btn'>See More</button></Link>
       </section>
 
-      <section>
+      <section className='img'>
         <img src={img_url} alt='bags' />
       </section>
     </div>

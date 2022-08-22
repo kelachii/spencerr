@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Oxygen:wght@700&family=Poppins:wght@300;400;700&family=Raleway:wght@100;400&display=swap');
 
+// * {
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+
+// }
+
+
+
 .btn {
     border: none;
     padding: 0 20px;
@@ -14,9 +23,11 @@
     color: orange;
     text-decoration: none;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgba(217, 141, 0, 0.945);
 }
+
 
 .navig {
     display: flex;
@@ -31,6 +42,17 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 1.5rem;
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+            padding: 1rem;
+            font-weight: bold;
+            font-size: 1rem;
+        }
     }
 
     .active {
@@ -53,15 +75,7 @@
         align-items: center;
     }
 
-    ul {
-        display: flex;
-        li {
-            list-style: none;
-            padding: 1rem;
-            font-weight: bold;
-            font-size: 1rem;
-        }
-    }
+
 
 
 
@@ -70,6 +84,7 @@
     }
 
 }
+
 
 .hero {
     margin: 2rem 5rem;
@@ -81,10 +96,14 @@
     padding: 0, 9rem;
     font-size: 3rem;
 
-    img {
-        width: 40rem;
-        height: 30rem;
+    .img {
+        width: -20%;
+        height: -60%;
 
+        img {
+            width: fit-content;
+            height: fit-content;
+        }
     }
 
     .home {
@@ -106,9 +125,10 @@
 }
 
 .product {
+    margin: 4rem 4rem;
     display: grid;
-    grid-gap: .5rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
 
     &_banner {
         border: .1rem solid orange;
@@ -149,10 +169,10 @@
 
     .services {
         display: grid;
-        grid-gap: .5rem;
+        grid-gap: 4rem;
         grid-template-columns: 1fr 1fr 1fr;
         text-align: center;
-        margin: 2rem 8rem;
+        margin: 2rem 4rem;
 
 
         &-banner {
@@ -175,7 +195,7 @@
     &_banner {
         box-shadow: 0 0.125rem 0.125rem 0.125rem rgba(9, 9, 9, 0.23);
         border-radius: .5rem;
-        border:  .1rem solid orange;
+        border: .1rem solid orange;
         width: 25.8125rem;
         text-align: left;
         margin: auto;
@@ -251,15 +271,10 @@
             text-align: center;
         }
 
-        .signup_banner {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-
-            label {
-                margin: 0;
-                padding: 0;
-            }
-        }
+        // .signup_banner {
+        //     display: grid;
+        //     grid-template-columns: 1fr 1fr;
+        // }
 
         button {
             width: 100%;
@@ -281,6 +296,9 @@
     }
 
     &-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .5rem;
         align-self: auto;
         margin: auto;
 
@@ -307,6 +325,7 @@
 
         text-align: left;
         padding: 0 4rem;
+        margin: 0;
     }
 
 
@@ -332,7 +351,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
 
 
     .navig {
