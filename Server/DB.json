@@ -2,17 +2,30 @@
   "users": [
     {
       "id": "1",
-      "username": "kelachi",
+      "userName": "kelachi",
       "email": "kelachivictor@gmail.com",
       "firstName": "kelachi",
       "middleName": "victor",
       "lastName": "elewa",
       "mobile": "09016194273",
       "dob": "",
-      "city": "",
-      "password": "",
-      "conPassword": "",
-      "gender": ""
+      "city": "port harcourt",
+      "password": "12345678",
+      "conPassword": "12345678",
+      "gender": "male"
+    },
+    {
+      "userName": "abbas",
+      "firstName": "Abas",
+      "middleName": "",
+      "lastName": "Ajodo",
+      "mobile": "07040437477",
+      "dob": "2004-02-02",
+      "city": "Port Harcourt",
+      "email": "gfghhg@hotmail.com",
+      "password": "123456",
+      "conPassword": "123456",
+      "id": "030UHN0"
     }
   ]
 }
